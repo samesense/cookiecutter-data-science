@@ -71,3 +71,10 @@ target/
 
 # exclude data from source control by default
 /data/
+
+# perry
+nohup*
+.snakemake/
+data/
+log/
+*~
