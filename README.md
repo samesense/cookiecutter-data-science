@@ -96,3 +96,8 @@ We welcome contributions! [See the docs for guidelines](https://drivendata.githu
 ------------
 
     py.test tests
+
+### Perry changes
+* add simple snakemake file controled by run.sh
+* add tests in src, and log dir
+* add a constant file used by my main snakefile
