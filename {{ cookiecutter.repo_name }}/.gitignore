@@ -75,6 +75,6 @@ target/
 # perry
 nohup*
 .snakemake/
-data/
-log/
+/log/
+/work/
 *~
