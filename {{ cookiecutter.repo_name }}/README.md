@@ -50,15 +50,17 @@ Project Organization
     │   │   └── train_model.py
     │   │
     |   ├── rules          <- Snakefile rules
-    │   │   ├── const.py   <- File of constants used by rules 
-    │   │   └── sf.py      <- Main snakefile
+    │   │   ├── const.py   <- File of constants used by rules
+    │   │   └── sf.py      <- Main snakefile
+    |   |
     │   ├── scripts        <- Analysis scripts
-    │   ├── tests          <- Unit tests and sanity checks
-    |
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    |   |
+    │   ├── tests          <- Unit tests and sanity checks
+    |   | 
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+    ├── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
     |
     └── work               <- Holds analysis results
 
