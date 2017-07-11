@@ -7,8 +7,9 @@ from pass_wd import *
 DONE = TWILIO_PRE + "--data-urlencode 'Body=DONE' " + TWILIO_POST
 FAIL = TWILIO_PRE + "--data-urlencode 'Body=FAIL' " + TWILIO_POST
 
+p = os.getcwd()
 if 'code' in p:
-    PWD = os.getcwd().split('src/')[0]
+    PWD = p.split('src/')[0]
 else:
     PWD = p + '/'
 
